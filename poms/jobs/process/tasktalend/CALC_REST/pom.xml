@@ -9,7 +9,7 @@
     <relativePath>../../../../</relativePath>
   </parent>
   <groupId>org.example.talend_task.service</groupId>
-  <artifactId>CALCULATING2</artifactId>
+  <artifactId>CALC_REST</artifactId>
   <version>0.1.0</version>
   <packaging>bundle</packaging>
   <name>TALEND_TASK CALCULATING2-${project.version} (0.1,Job Designs) Bundle</name>
