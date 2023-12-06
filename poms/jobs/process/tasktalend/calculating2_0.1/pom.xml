@@ -3,24 +3,24 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.example.talend_task_1</groupId>
+    <groupId>org.example.talend_task</groupId>
     <artifactId>code.Master</artifactId>
     <version>8.0.1</version>
     <relativePath>../../../../</relativePath>
   </parent>
-  <groupId>org.example.talend_task_1.service</groupId>
+  <groupId>org.example.talend_task.service</groupId>
   <artifactId>CALCULATING2</artifactId>
   <version>0.1.0</version>
   <packaging>bundle</packaging>
-  <name>TALEND_TASK_1 CALCULATING2-${project.version} (0.1,Job Designs) Bundle</name>
+  <name>TALEND_TASK CALCULATING2-${project.version} (0.1,Job Designs) Bundle</name>
   <properties>
     <talend.job.type>Standard</talend.job.type>
-    <talend.pigudf.groupid>org.example.talend_task_1.pigudf</talend.pigudf.groupid>
+    <talend.pigudf.groupid>org.example.talend_task.pigudf</talend.pigudf.groupid>
     <bundle.config.import.package>@BundleConfigImportPackage@</bundle.config.import.package>
     <lib.path>${resources.path}/lib</lib.path>
     <talend.job.folder>tasktalend/</talend.job.folder>
     <talend.job.context>Default</talend.job.context>
-    <talend.job.path>talend_task_1</talend.job.path>
+    <talend.job.path>talend_task</talend.job.path>
     <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
     <resources.path>${basedir}/src/main/resources</resources.path>
     <item.project.name>@ItemProjectName@</item.project.name>
@@ -31,10 +31,10 @@
     <talend.job.id>_VHbK4JNCEe60oLw6r0Ml7w</talend.job.id>
     <talend.job.version>0.1</talend.job.version>
     <talend.job.framework></talend.job.framework>
-    <talend.routine.groupid>org.example.talend_task_1.code</talend.routine.groupid>
+    <talend.routine.groupid>org.example.talend_task.code</talend.routine.groupid>
     <current.int-resources.dir>${basedir}/src/main/resources</current.int-resources.dir>
     <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
-    <talend.project.name.lowercase>talend_task_1</talend.project.name.lowercase>
+    <talend.project.name.lowercase>talend_task</talend.project.name.lowercase>
     <talend.project.id>0</talend.project.id>
     <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
     <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
@@ -42,7 +42,7 @@
     <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <talend.product.version>8.0.1.20211109_1610</talend.product.version>
-    <talend.project.name>TALEND_TASK_1</talend.project.name>
+    <talend.project.name>TALEND_TASK</talend.project.name>
     <current.test.resources.dir>${basedir}/src/test/resources</current.test.resources.dir>
     <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
