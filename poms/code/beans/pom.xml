@@ -3,15 +3,15 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.example.talend_task_1</groupId>
+    <groupId>org.example.talend_task</groupId>
     <artifactId>code.Master</artifactId>
     <version>8.0.1</version>
     <relativePath>../../</relativePath>
   </parent>
-  <groupId>org.example.talend_task_1.bean</groupId>
+  <groupId>org.example.talend_task.bean</groupId>
   <artifactId>beans</artifactId>
   <version>8.0.1</version>
-  <name>TALEND_TASK_1 Beans</name>
+  <name>TALEND_TASK Beans</name>
   <properties>
     <talend.codes.package>beans</talend.codes.package>
     <maven.compiler.failOnError>${codes.compile.failOnError}</maven.compiler.failOnError>
@@ -19,7 +19,7 @@
   </properties>
   <dependencies>
     <dependency>
-      <groupId>org.example.talend_task_1.code</groupId>
+      <groupId>org.example.talend_task.code</groupId>
       <artifactId>routines</artifactId>
       <version>8.0.1</version>
     </dependency>
